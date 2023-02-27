@@ -1,7 +1,7 @@
 div{
     width: 80%;
     margin: 20px auto; /*Centre les div dans la page*/
-    background-color: #777; /*Fond gris*/
+    background-color: #FFFFFF; /*Fond gris*/
 }
 
 p{
@@ -14,7 +14,7 @@ p{
 }
 
 .bordure{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .arrondi1{
     border-radius : 100px / 20px;
