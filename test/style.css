@@ -1,0 +1,27 @@
+div{
+    width: 80%;
+    margin: 20px auto; /*Centre les div dans la page*/
+    background-color: #777; /*Fond gris*/
+}
+
+p{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align:center; /*Texte centré horizontalement*/
+  line-height: 100px; /*Texte centré verticalement*/
+  background-color: #0CC; /*Fond bleu vert*/
+}
+
+.bordure{
+    border: 2px solid black;
+}
+.arrondi1{
+    border-radius : 100px / 20px;
+}
+.arrondi2{
+    border-radius: 50px;/*Identique à border-radius: 50px/50px*/
+}
+.arrondi3{
+  border-radius: 25%;/*Identique à border-radius: 25%/25%*/
+}
