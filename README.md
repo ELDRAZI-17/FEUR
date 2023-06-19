@@ -1,1 +1,1 @@
-<p>https://eldrazi-17.github.io/FEUR/</p>
+https://eldrazi-17.github.io/FEUR/
