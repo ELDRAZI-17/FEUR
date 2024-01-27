@@ -1,4 +1,14 @@
 body {
 	background-color: black;
+	font-family: 'NemoyBold';
 	overflow: hidden;
+}
+
+p {
+	color : white;
+	font-family: 'Arial';
+}
+
+marquee {
+	color : green;
 }
