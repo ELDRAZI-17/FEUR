@@ -1,14 +1,10 @@
 body {
 	background-color: black;
-	font-family: 'NemoyBold';
+	font-family: 'XoloniumRegular';
 	overflow: hidden;
 }
 
-p {
+h1 {
 	color : white;
-	font-family: 'Arial';
-}
-
-marquee {
-	color : green;
+	text-shadow: gray 1px 0 10px;
 }
