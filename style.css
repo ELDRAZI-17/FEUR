@@ -9,7 +9,7 @@ h1 {
 }
 
 .button-85 {
-	font-family: 'XoloniumRegular';
+  font-family: 'XoloniumRegular';
   font-weight: 400;
   padding: 10px 20px;
   font-size: 30px;
@@ -25,6 +25,8 @@ h1 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
 }
 
 .button-85:before {
@@ -77,4 +79,9 @@ h1 {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.button-85:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
 }
