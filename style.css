@@ -10,7 +10,7 @@ h1 {
 }
 
 .button-85 {
-  font-family: 'XoloniumRegular';
+  text-shadow: gray 1px 0 10px;
   font-weight: 400;
   padding: 10px 35px;
   font-size: 30px;
