@@ -10,9 +10,10 @@ h1 {
 }
 
 .button-85 {
+  rotate: 270deg;
   text-shadow: gray 1px 0 10px;
   font-weight: 400;
-  padding: 10px 35px;
+  padding: 35px 10px;
   font-size: 30px;
   font-weight: 400;
   border: none;
@@ -26,7 +27,7 @@ h1 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  transform: translateY(0);
+  transform: translateX(0);
   transition: transform 150ms, box-shadow 150ms;
 }
 
@@ -84,11 +85,11 @@ h1 {
 
 .button-85:hover {
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-2px);
+  transform: translateX(2px);
 }
 
 @media (min-width: 768px) {
   .button-85 {
-    padding: 10px 35px;
+    padding: 35px 10px;
   }
 }
